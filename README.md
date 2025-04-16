@@ -38,3 +38,7 @@ This project implements a digital weight scale using the HX711 ADC and ESP32 mic
     - Use the calibration code to calibrate your load cell.
 
 5. Start measuring weights!
+
+## PCB Schematic
+
+![PCB](https://github.com/user-attachments/assets/8210ffc5-b788-434a-a094-a29cddce2428)
