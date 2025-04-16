@@ -19,6 +19,7 @@ This project implements a digital weight scale using the HX711 ADC and ESP32 mic
 - HX711 library by Rob Tillaart.
 
 ## Getting Started
+![Schematic](https://github.com/user-attachments/assets/4376e429-1911-47bc-9b25-4c5b896578d7)
 
 1. Clone the repository:
     ```
