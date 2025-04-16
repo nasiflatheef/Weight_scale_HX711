@@ -12,38 +12,28 @@ This project implements a digital weight scale using the HX711 ADC and ESP32 mic
 - ESP32 microcontroller.
 - HX711 load cell amplifier.
 - Load cell (e.g., 5kg strain gauge).
-- Supporting components: resistors, capacitors, etc.
+
 
 ## Software Requirements
 - Arduino IDE or PlatformIO.
-- HX711 library by Bogde.
-- Python 3.x (for tools).
+- HX711 library by Rob Tillaart.
 
 ## Getting Started
 
 1. Clone the repository:
     ```
-    git clone https://github.com/yourusername/weight-scale.git
-    cd weight-scale
+    git clone [https://github.com/yourusername/weight-scale.git
+    cd weight-scale](https://github.com/RobTillaart/HX711)
     ```
 
 2. Install dependencies:
-    - Install the HX711 library via Arduino Library Manager.
+    - Install the HX711 library by Rob Tillaart via Arduino Library Manager.
 
 3. Upload the code:
-    - Open `code/src/main.cpp` in Arduino IDE.
+    - Copy the code to Arduino IDE.
     - Configure your COM port and upload to ESP32.
 
 4. Calibrate the scale:
-    - Use the calibration tool (`tools/calibration_tool.py`) to calibrate your load cell.
+    - Use the calibration code to calibrate your load cell.
 
 5. Start measuring weights!
-
-## Documentation
-Refer to the [docs](docs/) folder for detailed guides:
-- [System Architecture](docs/architecture.md)
-- [Calibration Guide](docs/calibration_guide.md)
-- [Troubleshooting](docs/troubleshooting.md)
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
