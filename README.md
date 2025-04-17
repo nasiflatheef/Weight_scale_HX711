@@ -39,6 +39,18 @@ This project implements a digital weight scale using the HX711 ADC and ESP32 mic
 
 5. Start measuring weights!
 
+##Hardware Setup
+
+Load Cell	HX711	ESP32
+Red	E+	
+Black	E-	
+White	A-	
+Green	A+	
+HX711 DT		GPIO 5
+HX711 SCK		GPIO 6
+VCC/GND		3.3V/GND
+
+
 ## PCB Schematic
 
 ![PCB](https://github.com/user-attachments/assets/8210ffc5-b788-434a-a094-a29cddce2428)
